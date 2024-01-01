@@ -5,3 +5,17 @@ Practice CSS while reading CSS in-depth book by Keith J. Grant
 - box-model and border-box
 - ch-3: column with an adjusted box model now fit side by side
 - ch-3: universal border-box fix
+
+add the below CSS style to every new project to have a more predictable box model:
+
+```css
+:root {
+  box-sizing: border-box;
+}
+  
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+```
