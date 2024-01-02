@@ -19,3 +19,8 @@ add the below CSS style to every new project to have a more predictable box mode
   box-sizing: inherit;
 }
 ```
+
+# Day 2
+- percentage based gutter (gap) margin
+- using calc() to subtract the gutter from the width
+- controlling overflow behavior: content overflowing its container 
