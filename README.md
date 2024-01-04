@@ -45,3 +45,11 @@ add the below CSS style to every new project to have a more predictable box mode
   width: 30%;
 }
 ```
+
+# Day 4
+- equal height columns using flexbox
+- min-height and max-height
+- using padding to vertically center contents
+- vertical align table cell
+
+reference: http://howtocenterincss.com/#contentType=div&content.width=100px&horizontal=center&vertical=middle&browser.IE=none
