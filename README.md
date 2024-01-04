@@ -27,6 +27,7 @@ add the below CSS style to every new project to have a more predictable box mode
 
 # Day 3
 - equal-height columns with a CSS-based table layout
+- negative margins for a corrected gutter
 
 ```css
 .container {
