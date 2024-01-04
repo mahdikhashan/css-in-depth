@@ -24,3 +24,23 @@ add the below CSS style to every new project to have a more predictable box mode
 - percentage based gutter (gap) margin
 - using calc() to subtract the gutter from the width
 - controlling overflow behavior: content overflowing its container 
+
+# Day 3
+- equal-height columns with a CSS-based table layout
+
+```css
+.container {
+  display: table;
+  width: 100%;
+}
+
+.main {
+  display: table-cell;
+  width: 70%;
+}
+
+.sidebar {
+  display: table-cell;
+  width: 30%;
+}
+```
