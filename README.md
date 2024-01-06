@@ -67,19 +67,19 @@ reference: http://howtocenterincss.com/#contentType=div&content.width=100px&hori
     - unknown inner content height, use absolute positioning in conjunction with a transform.
 
 ```css
-  .content-transform {
-    position: relative;
-    min-height: 500px;
-    border: 1px solid #ccc;
-  }
+.content-transform {
+  position: relative;
+  min-height: 500px;
+  border: 1px solid #ccc;
+}
 
-  .inner-content-for-transform {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f00;
-    color: #fff;
-    padding: 10px;
-  }
+.inner-content-for-transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+}
 ```
