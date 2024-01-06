@@ -12,7 +12,7 @@ add the below CSS style to every new project to have a more predictable box mode
 :root {
   box-sizing: border-box;
 }
-  
+
 *,
 ::before,
 ::after {
@@ -53,3 +53,15 @@ add the below CSS style to every new project to have a more predictable box mode
 - vertical align table cell
 
 reference: http://howtocenterincss.com/#contentType=div&content.width=100px&horizontal=center&vertical=middle&browser.IE=none
+
+# Day 5
+  didn't work, off.
+
+# Day 6
+  - vertical centring
+    - natural height container, apply equal top and bottom padding.
+    - need specific height, need to avoid using padding, table-cell and vertical alignment.
+    - display flex-box with justify-content.
+    - inner content is a one liner, equal height for container and inner content.
+    - height of container and inner content is known, then use absolute positioning.
+    - unknown inner content height, use absolute positioning in conjunction with a transform.
