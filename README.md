@@ -83,3 +83,5 @@ reference: http://howtocenterincss.com/#contentType=div&content.width=100px&hori
   padding: 10px;
 }
 ```
+# Day 7
+  - negative margins
