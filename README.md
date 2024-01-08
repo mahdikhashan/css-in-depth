@@ -85,3 +85,6 @@ reference: http://howtocenterincss.com/#contentType=div&content.width=100px&hori
 ```
 # Day 7
   - negative margins
+
+# Day 8
+  - margin collapsing part 1
