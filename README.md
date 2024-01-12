@@ -93,6 +93,9 @@ reference: http://howtocenterincss.com/#contentType=div&content.width=100px&hori
   - didn't work
 
 # Day 10
+  - didn't work
+
+# Day 11
   - margin collapsing fix with overflow-auto
   - margin collapsing fix with padding
   - margin collapsing fix with border
