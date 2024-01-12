@@ -105,3 +105,19 @@ reference: http://howtocenterincss.com/#contentType=div&content.width=100px&hori
   - margin collapsing fix with fixed positions
   - margin collapsing fix with flexbox
   - margin collapsing fix with table-cell
+
+# Day 12
+  - siblings combinator
+  - lobomomized owl selector
+
+```css
+/* siblings combinator */
+.button-link + .button-link {
+  margin-top: 1.5em;
+}
+
+/* lobomomized owl selector */
+body * + * {
+  margin-top: 1.5em;
+}
+```
