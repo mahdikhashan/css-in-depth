@@ -88,3 +88,17 @@ reference: http://howtocenterincss.com/#contentType=div&content.width=100px&hori
 
 # Day 8
   - margin collapsing part 1
+
+# Day 9
+  - didn't work
+
+# Day 10
+  - margin collapsing fix with overflow-auto
+  - margin collapsing fix with padding
+  - margin collapsing fix with border
+  - margin collapsing fix with float
+  - margin collapsing fix with inline-block
+  - margin collapsing fix with absolute
+  - margin collapsing fix with fixed positions
+  - margin collapsing fix with flexbox
+  - margin collapsing fix with table-cell
