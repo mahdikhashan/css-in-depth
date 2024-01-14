@@ -46,6 +46,12 @@
     border: 1px dashed black;
   }
 
+  .clearfix::after {
+    display: block;
+    content: " ";
+    clear: both;
+  }
+
 </style>
 
 <body>
@@ -107,8 +113,6 @@
         </div>
 
       </div>
-
-      <div style="clear: both;"></div>
     </main>
 
   </div>
