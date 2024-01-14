@@ -46,9 +46,13 @@
     border: 1px dashed black;
   }
 
+  .clearfix::before,
   .clearfix::after {
-    display: block;
+    display: table;
     content: " ";
+  }
+
+  .clearfix::after {
     clear: both;
   }
 
