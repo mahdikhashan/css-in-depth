@@ -128,3 +128,6 @@ body * + * {
 # Day 14
   - double container layout, anonymous div for grouping, max-width with margins: 0 auto; for centering
   - container collapsing with floating components, clearfix, ::before, ::after pseudo-elements, clear: both; for height increase to encompass the whole container which has floats, floats don't make parent height increase
+
+# Day 15
+  - unexpected float catching
