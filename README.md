@@ -134,3 +134,26 @@ body * + * {
 
 # Day 16
   - media-object
+
+# Day 17
+  - attribute selector be like [attribute*="startswith-..."]
+  - grid system
+
+```css
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 { width: 8.3333% }
+.col-2 { width: 16.6667% }
+.col-3 { width: 25% }
+.col-4 { width: 33.3333% }
+.col-5 { width: 41.6667% }
+.col-6 { width: 50% }
+.col-7 { width: 58.3333% }
+.col-8 { width: 66.6667% }
+.col-9 { width: 75% }
+.col-10 { width: 83.3333% }
+.col-11 { width: 91.6667% }
+.col-12 { width: 100% }
+```
