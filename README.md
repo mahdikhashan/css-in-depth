@@ -157,3 +157,6 @@ body * + * {
 .col-11 { width: 91.6667% }
 .col-12 { width: 100% }
 ```
+
+# Day 18
+  - grid columns with gutters
