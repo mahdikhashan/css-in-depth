@@ -160,3 +160,6 @@ body * + * {
 
 # Day 18
   - grid columns with gutters
+
+# Day 19
+  - flexbox setup, flex container, flex items, main axis, cross axis, autoprefixer
