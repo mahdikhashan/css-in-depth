@@ -163,3 +163,13 @@ body * + * {
 
 # Day 19
   - flexbox setup, flex container, flex items, main axis, cross axis, autoprefixer
+
+# Day 20
+  - flexbox menu
+
+```css
+  .flex > * + * {
+    margin-top: 0;
+    margin-left: 1.5em;
+  }
+```
