@@ -173,3 +173,14 @@ body * + * {
     margin-left: 1.5em;
   }
 ```
+# Day 21
+  - flexbox properties
+
+```css
+// flex: //flex-grow //flex-shrink //flex-basis ;
+flex: 2 1 0%;
+// or
+flex-grow: 2;
+flex-shrink: 1;
+flex-basis: 0%;
+```
