@@ -184,3 +184,7 @@ flex-grow: 2;
 flex-shrink: 1;
 flex-basis: 0%;
 ```
+
+# Day 22
+  - flexbox shrink
+  - Holy Grail layout
