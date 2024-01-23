@@ -1,3 +1,7 @@
+<!-- The flex container's height is determined by its flex items.
+They fill it perfectly. In a vertical flexbox, 'flex-grow' and 'flex-shrink' applied to the items will have no effect 
+unless something else forces the height of the flex container to a specific size. -->
+
 <style>
   :root {
     box-sizing: border-box;
@@ -92,8 +96,21 @@
     flex-shrink: 0;
   }
 
-  .flex-shrink {
+  .flex-shrink-1 {
     flex-shrink: 1;
+  }
+
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+
+  .flex-grow-2 {
+    flex-grow: 2;
+  }
+
+  .forced-height-200px {
+    height: 200px;
+    background-color: red;
   }
 </style>
 
@@ -123,15 +140,21 @@
     <main class="flex">
       <div class="column-main tile">
         <h1>Team collaboration done right</h1>
-        <p>
+
+        <!-- flex-grow-2 doesn't have any effect -->
+        <p class="flex-grow-2">
           Thousands of teams from all over the world turn to <b>Ink</b> to
           communicate and get things done.
         </p>
-        <p>
+
+        <!-- flex-grow-1 doesn't have any effect -->
+        <p class="flex-grow-1 forced-height-200px">
           A second line of text, Thousands of teams from all over the world turn to <b>Ink</b> to
           communicate and get things done.
         </p>
-        <p>
+
+        <!-- flex-grow-2 doesn't have any effect -->
+        <p class="flex-grow-2">
           Thousands of teams from all over the world turn to <b>Ink</b> to
           communicate and get things done.
         </p>
@@ -226,15 +249,15 @@
     </main>
 
     <div class="flex">
-      <div class="flex-basis-40 without-flex-shrink my-box">
+      <div class="flex-basis-40 without-flex-shrink-1 my-box">
         <span> flex-basis: 40% </span>
         <span> flex-grow: 0 </span>
       </div>
-      <div class="flex-basis-40 without-flex-shrink my-box">
+      <div class="flex-basis-40 without-flex-shrink-1 my-box">
         <span> flex-basis: 40% </span>
         <span> flex-grow: 2 </span>
       </div>
-      <div class="flex-basis-40 without-flex-shrink my-box">
+      <div class="flex-basis-40 without-flex-shrink-1 my-box">
         <span> flex-basis: 40% </span>
         <span> flex-grow: 1 </span>
       </div>

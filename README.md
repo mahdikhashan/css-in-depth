@@ -188,3 +188,25 @@ flex-basis: 0%;
 # Day 22
   - flexbox shrink
   - Holy Grail layout
+
+# Day 23
+  - changing the flex direction
+
+```css
+
+/* nested flexboxes */
+
+/* A flex item for the outer flexbox and a flex container for the inner one */
+
+.column-sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Applied flex-grow to the items within */
+
+.column-sidebar > .tile {
+  flex: 1;
+}
+```
