@@ -1,7 +1,3 @@
-<!-- The flex container's height is determined by its flex items.
-They fill it perfectly. In a vertical flexbox, 'flex-grow' and 'flex-shrink' applied to the items will have no effect 
-unless something else forces the height of the flex container to a specific size. -->
-
 <style>
   :root {
     box-sizing: border-box;
@@ -111,6 +107,28 @@ unless something else forces the height of the flex container to a specific size
   .forced-height-200px {
     height: 200px;
     background-color: red;
+  }
+
+  .login-form h3 {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .login-form input:not([type=checkbox]):not([type=radio]) {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .login-form button {
+    margin-top: 1em;
+    border: 1px solid #cc6b5a;
+    background-color: white;
+    padding: 0.5em 1em;
+    cursor: pointer;
   }
 </style>
 

@@ -210,3 +210,8 @@ flex-basis: 0%;
   flex: 1;
 }
 ```
+
+# Day 24
+  - pseudo-class :not()
+  - attribute selector [type=checkbox] or [type=radio]
+
