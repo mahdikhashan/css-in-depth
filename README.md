@@ -215,3 +215,6 @@ flex-basis: 0%;
   - pseudo-class :not()
   - attribute selector [type=checkbox] or [type=radio]
 
+# Day 25
+  - style login form with :has()
+  - apply flex: 0, to the element which contains .login-form
