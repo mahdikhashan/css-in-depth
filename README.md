@@ -221,3 +221,15 @@ flex-basis: 0%;
 
 # Day 26
   - flex direction
+
+# Day 27
+  - didn't work
+
+# Day 28
+  - didn't work
+
+# Day 29
+  - didn't work
+
+# Day 30
+  - flex-wrap
