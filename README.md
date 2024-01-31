@@ -233,3 +233,6 @@ flex-basis: 0%;
 
 # Day 30
   - flex-wrap
+
+# Day 31
+  - flex-flow (mix of flex-direction and flex-wrap)
