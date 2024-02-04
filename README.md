@@ -239,3 +239,10 @@ flex-basis: 0%;
 
 # Day 32
   - web.dev tutorial: box-model, intrinsic and extrinsic
+
+# Day 33
+  - didn't work
+
+# Day 34
+  - didn't work
+
