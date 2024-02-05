@@ -249,3 +249,7 @@ flex-basis: 0%;
 # Day 35
   - flex -> justify content
   - since spacing is applied after margins and flex-grow values are calculated, any items (children) have a non-zero flex-grow value, or any items have an auto margin on the main axis (of the flex), `justify-content` has no effect.
+
+# Day 36
+  - "justify-content" for main axis, "align-items" for cross axis.
+  - 
