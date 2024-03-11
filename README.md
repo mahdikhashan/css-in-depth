@@ -252,4 +252,12 @@ flex-basis: 0%;
 
 # Day 36
   - "justify-content" for main axis, "align-items" for cross axis.
-  - 
+
+# Day 37, 38, 39, 40
+  - didn't work
+
+----------------------------------------------------------------
+
+# Day 1
+  - grid, grid-column-start, grid-column-end, grid-row-start, grid-row-end, grid-gap
+
