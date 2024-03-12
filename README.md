@@ -261,3 +261,6 @@ flex-basis: 0%;
 # Day 1
   - grid, grid-column-start, grid-column-end, grid-row-start, grid-row-end, grid-gap
 
+# Day 2
+  - work around units for grid-column, not quite successful.
+  - 
